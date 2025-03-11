@@ -1,7 +1,7 @@
 let items = [];
 
 function addItem() {
-    let input = prompt("กรอกข้อมูลที่ต้องการ เพิ่มลงในรายการ:");
+    let input = prompt("กรอกข้อมูลที่ต้องการเพิ่มลงในรายการ:");
     
     if (input !== null && input !== "") {
         items.push(input);
